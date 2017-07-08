@@ -1,0 +1,15 @@
+{
+  "name": "wds",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dist": "webpack -p",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "express": "^4.15.3",
+    "glob": "^7.1.2",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
